@@ -1,0 +1,59 @@
+.first_list{
+    list-style-position: inside;
+    background-color:rgb(42, 165, 114) ;
+}
+p{
+    background-color: rgba(255, 255, 0, 0.597);
+}
+#first{
+    background-color: rgb(43, 131, 43);
+    text-align: right;
+    text-shadow:2px 3px 4px black ;
+    animation: firstanim 5s linear infinite;
+}
+#second{
+
+text-align: center;
+text-shadow:2px 3px 4px black ;
+padding: 2em;
+border: 1em;
+margin: 2em;
+background-image:linear-gradient(rgb(111, 111, 235), rgb(187, 14, 187));
+}
+#third{
+background-color: rgb(150, 121, 180);
+text-align: center;
+text-shadow:2px 3px 4px black ;
+animation: my_animation 12s infinite;
+-webkit-animation: my_animation 12s infinite;
+}
+#third:hover{
+    background-color:rgb(203, 168, 242) ;
+}
+@keyframes my_animation {
+ 
+    0%{background-color: white; }
+    25%{background-color: gold; }
+    50%{background-color: silver; }
+    75%{background-color: darkviolet; }
+    100%{background-color: rgb(69, 144, 69); }
+
+}
+@keyframes firstanim{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(500px) ;}
+}
+table, tr, th, td {
+    border: 1px solid;
+}
+table{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+tr:hover{
+    background-color: brown;
+}
+.list-group{
+    width: 250px;
+}
